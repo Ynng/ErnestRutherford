@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-#main-container{
+#main-container {
   padding: 5rem 15px;
 }
 
@@ -21,21 +21,31 @@ body {
   transform: translate(0, 0);
 }
 
-#title-text{
+#title-text {
   font-size: 4rem;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-p{
+p {
   font-size: 1.25rem;
 }
 
-.hero{
-  margin-top: 10rem;
-  margin-bottom: 20rem;
+.hero {
+  min-height: calc(100vh - 5rem);
   align-items: center;
+}
+
+.birthplace.row {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+.school.row {
+  padding: 30vh 0;
+  background-attachment: fixed;
+  background-size: cover;
 }
