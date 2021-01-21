@@ -5,10 +5,11 @@ body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 #main-container{
-  padding: 5rem;
+  padding: 5rem 15px;
 }
 
 #bg {
@@ -30,7 +31,7 @@ code {
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .hero{
