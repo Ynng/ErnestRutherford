@@ -228,6 +228,13 @@ function App() {
             </Col>
             <Col xs="2" />
           </div>
+          <Row>
+            <Col className="flex-center mt-5">
+              <a className="btn citation-button-bottom btn-outline-primary" href="/citation">
+                Citations
+              </a>
+            </Col>
+          </Row>
         </Container>
       </Container>
       <footer className="site-footer">

@@ -58,33 +58,36 @@ p {
 
 .row-with-alt::after {
   content: attr(alt);
-  position: absolute; left: 0px; right: 0px; bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   width: fit-content;
   background-color: #00000036;
   color: rgba(255, 255, 255, 0.671);
   overflow-wrap: anywhere;
-  padding: .2rem .5rem;
-  font-size: .75rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
   user-select: text;
-  border-top-right-radius: .25rem;
+  border-top-right-radius: 0.25rem;
 }
 
-.rutherford-model{
+.rutherford-model {
   background-color: black;
   position: relative;
 }
 
-.rutherford-model h2{
+.rutherford-model h2 {
   font-size: 1.75rem;
   color: black;
   background-color: #ffffff7c;
   width: fit-content;
   padding: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   backdrop-filter: blur(10px);
 }
 
-.rutherford-model .col{
+.rutherford-model .col {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,53 +96,64 @@ p {
   place-items: center;
 }
 
-.video-bg{
+.video-bg {
   position: relative;
   width: 100vw;
   height: auto;
 }
 
-.center-vertically{
+.center-vertically {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.row.model{
+.row.model {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
-.margin{
+.margin {
   margin-top: 3rem;
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.site-footer{
+.btn.citation-button-bottom {
+  font-size: 2rem;
+}
+
+.site-footer {
   width: 100%;
   background-color: rgba(8, 8, 8, 0.445);
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   backdrop-filter: blur(10px);
 }
 
-.site-footer a{
+.site-footer a {
   color: #b7f1ff;
 }
 
-.site-footer a:hover{
+.site-footer a:hover {
   color: #9bcfdb;
 }
 
-.site-footer p{
+.site-footer p {
   color: white;
   width: 100%;
   text-align: center;
   font-size: 1rem;
   margin: 0;
+}
+
+.hanging {
+  text-indent: -36px;
+  padding-left: 36px;
+  width: 100%;
+  overflow-wrap: anywhere;
 }
