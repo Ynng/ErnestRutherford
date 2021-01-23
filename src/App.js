@@ -247,6 +247,8 @@ function App() {
           <Row className="mb-5">
             <Jumbotron className="shadow" data-aos="zoom-in">
               <h1>Legacy</h1>
+              <p>We lost one of the greatest experimentalists (Britannica, 2021) of our time on October 19, 1937 (aged 66).</p>
+              <p>On top of all the previously mentioned  <strong>degrees</strong>, he was also awarded the Doctor from Science degree of the University of New Zealand, and honorary doctorates from the Universities of Pennsylvania, Wisconsin, McGill, Birmingham, Edinburgh, Melbourne, Yale, Glasgow, Giessen, Copenhagen, Cambridge, Dublin, Durham, Oxford, Liverpool, Toronto, Bristol, Cape Town, London and Leeds.</p>
               <p>
                 Rutherford's discoveries and contributions go beyond his atomic
                 model. He also discovered the concept of <strong>radioactive half-life</strong>,
