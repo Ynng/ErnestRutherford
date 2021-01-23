@@ -198,7 +198,7 @@ function App() {
               Despite the existence of more accurate quantum physical models of
               the atom, the Bohr-Rutherford model of the atom is still taught to
               students as an introduction to the world of chemistry because of
-              its simplicity.
+              its simplicity. (Milliman, 2019)
             </p>
             <p data-aos="fade-left">
               Throughout high school chemistry, we have used the Bohr-Rutherford
@@ -249,10 +249,10 @@ function App() {
               <h1>Legacy</h1>
               <p>
                 Rutherford's discoveries and contributions go beyond his atomic
-                model. He also discovered the concept of radioactive half-life,
-                the element radon, and distinguished and named alpha, beta, and
-                gamma particles and classified them according to their ability
-                to penetrate matter. (Nobel Lectures, 1966)
+                model. He also discovered the concept of <strong>radioactive half-life</strong>,
+                the element <strong>radon</strong>, distinguished and named <strong>alpha, beta, and
+                gamma particles</strong> and classified them according to their ability
+                to penetrate matter, and <strong>more</strong>! (Nobel Lectures, 1966)
               </p>
               <p>
                 His understanding of atoms and radiation pioneered nuclear

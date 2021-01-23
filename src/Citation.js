@@ -90,6 +90,11 @@ function Citation() {
               https://en.wikipedia.org/wiki/File:Statue_of_Ernest_Rutherford.JPG
             </p>
             <p className="hanging">
+              Milliman, H. (2019, September 24). Understanding the Bohr Atomic Model.
+              Retrieved January 23, 2021, from
+              https://blog.prepscholar.com/bohr-model#:~:text=Today%2C%20we%20know%20that%20the,more%20accurate%20quantum%2Dmechanical%20models.
+            </p>
+            <p className="hanging">
               New Zealand Ministry for Culture and Heritage Te Manatu Taonga.
               (1970, January 01). Rutherford, Ernest. Retrieved January 22,
               2021, from
