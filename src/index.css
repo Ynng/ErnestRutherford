@@ -157,3 +157,36 @@ p {
   width: 100%;
   overflow-wrap: anywhere;
 }
+
+@keyframes up-and-down {
+  from {bottom: 9%;}
+  to {bottom: 11%;}
+}
+
+#scroll-down{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #000;
+  animation: up-and-down 1s ease-out alternate infinite;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+#scroll-down.invisible{
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 2rem;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+

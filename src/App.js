@@ -9,6 +9,7 @@ import {
 } from "react-bootstrap";
 import MyImage from "./components/MyImage";
 import GMap from "./components/GMap";
+import React, { useEffect, useState } from "react";
 
 //Images
 import background from "./images/chemistry-doodle-childrens-plain-1.jpg";
@@ -25,8 +26,41 @@ import idk from "./images/Rutherford at McGill.jpg";
 import model from "./images/model-Diagram-Rutherford-atom-nucleus-space-electrons.jpg";
 
 function App() {
+  const [atTop, setAtTop] = useState(true);
+
+  useEffect(() => {
+
+    var lastPos = 0;
+    window.onscroll = function () {
+      if (window.pageYOffset !== 0 && lastPos === 0) {
+        setAtTop(false);
+      }else if(window.pageYOffset === 0 && lastPos !== 0){
+        setAtTop(true);
+      }
+      lastPos = window.pageYOffset;
+    };
+  }, []);
+
   return (
     <>
+      <div id="scroll-down" className={atTop ? "" : "invisible"}>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="arrow-down"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="svg-inline--fa fa-arrow-down fa-w-14"
+        >
+          <path
+            fill="currentColor"
+            d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"
+            class=""
+          ></path>
+        </svg>
+      </div>
       <div id="bg" style={{ backgroundImage: `url(${background})` }} />
       <Container fluid id="main-container">
         <Container>
@@ -247,14 +281,27 @@ function App() {
           <Row className="mb-5">
             <Jumbotron className="shadow" data-aos="zoom-in">
               <h1>Legacy</h1>
-              <p>We lost one of the greatest experimentalists (Britannica, 2021) of our time on October 19, 1937 (aged 66).</p>
-              <p>On top of all the previously mentioned  <strong>degrees</strong>, he was also awarded the Doctor from Science degree of the University of New Zealand, and honorary doctorates from the Universities of Pennsylvania, Wisconsin, McGill, Birmingham, Edinburgh, Melbourne, Yale, Glasgow, Giessen, Copenhagen, Cambridge, Dublin, Durham, Oxford, Liverpool, Toronto, Bristol, Cape Town, London and Leeds.</p>
+              <p>
+                We lost one of the greatest experimentalists (Britannica, 2021)
+                of our time on October 19, 1937 (aged 66).
+              </p>
+              <p>
+                On top of all the previously mentioned <strong>degrees</strong>,
+                he was also awarded the Doctor from Science degree of the
+                University of New Zealand, and honorary doctorates from the
+                Universities of Pennsylvania, Wisconsin, McGill, Birmingham,
+                Edinburgh, Melbourne, Yale, Glasgow, Giessen, Copenhagen,
+                Cambridge, Dublin, Durham, Oxford, Liverpool, Toronto, Bristol,
+                Cape Town, London and Leeds.
+              </p>
               <p>
                 Rutherford's discoveries and contributions go beyond his atomic
-                model. He also discovered the concept of <strong>radioactive half-life</strong>,
-                the element <strong>radon</strong>, distinguished and named <strong>alpha, beta, and
-                gamma particles</strong> and classified them according to their ability
-                to penetrate matter, and <strong>more</strong>! (Nobel Lectures, 1966)
+                model. He also discovered the concept of{" "}
+                <strong>radioactive half-life</strong>, the element{" "}
+                <strong>radon</strong>, distinguished and named{" "}
+                <strong>alpha, beta, and gamma particles</strong> and classified
+                them according to their ability to penetrate matter, and{" "}
+                <strong>more</strong>! (Nobel Lectures, 1966)
               </p>
               <p>
                 His understanding of atoms and radiation pioneered nuclear
