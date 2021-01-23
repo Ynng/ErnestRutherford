@@ -51,7 +51,7 @@ function App() {
               Zealand.
             </p>
             <p data-aos="fade-right">
-              After studying at Nelson College, New Zealand's oldest state secondary school, he was awarded a scholarship to attend Canterbury College at the <strong>University of New Zealand</strong>, where he later earned his B.A., M.A. and B.A. degrees.
+              After studying at Nelson College, New Zealand's oldest state secondary school, he was awarded a scholarship to attend Canterbury College at the <strong>University of New Zealand</strong>, where he later earned his B.A., M.A. and B.A. degrees. (Britannica, 2021)
             </p>
           </Col>
           <Col xs="4">
@@ -62,14 +62,14 @@ function App() {
         <div className="row school row-with-alt" style={{ backgroundImage: `url(${cavendish})` }} alt="S. (2018, June 30). Cavendish Laboratory [Digital image]. Retrieved January 21, 2021, from https://commons.wikimedia.org/wiki/File:Cavendish_Laboratory_-_Free_School_Lane_Cambridge_CB2_3QA.jpg">
           <Col xs="2" />
           <Col>
-            <p data-aos="fade-up" className="text-light text-center">He was awarded an research fellowship in 1851 for postgraduate study at the Cavendish Laboratory, <strong>Cambridge University</strong>, England, under J.J. Thomson.</p>
+            <p data-aos="fade-up" className="text-light text-center">He was awarded an research fellowship in 1851 for postgraduate study at the Cavendish Laboratory, <strong>Cambridge University</strong>, England, under J.J. Thomson. (Britannica, 2021)</p>
           </Col>
           <Col xs="2" />
         </div>
         <div className="row school row-with-alt" style={{ backgroundImage: `url(${mcgillphysics})` }} alt="Ernest Rutherford Physics Building - View from University [Digital image]. (1977). Retrieved January 22, 2021, from https://cac.mcgill.ca/campus/buildings/Rutherford_Physics.html">
           <Col xs="2" />
           <Col>
-            <p data-aos="fade-up" className="text-light text-center">Recommended by J.J. Thomson, he took a position at <strong>McGill University</strong>, Canada, in 1898.
+            <p data-aos="fade-up" className="text-light text-center">Recommended by J.J. Thomson, he took a position at <strong>McGill University</strong>, Canada, in 1898. (McGill, n.d.)
             </p>
           </Col>
           <Col xs="2" />
@@ -77,7 +77,7 @@ function App() {
         <div className="row school row-with-alt" style={{ backgroundImage: `url(${manchester})` }} alt="Birkinshaw, P. (2009, November 27). The buildings of the University of Manchester and the Manchester Museum in Oxford Road [Digital image]. Retrieved January 21, 2021, from https://en.wikipedia.org/wiki/File:The_University_of_Manchester_(with_snow).jpg">
           <Col xs="2" />
           <Col>
-            <p data-aos="fade-up" className="text-light text-center">He then moved in 1907 to the <strong>University of Manchester</strong>, taking the <strong>chair of physics</strong>, where he performed his most famous work, and his greatest contribution to physics and chemistry...
+            <p data-aos="fade-up" className="text-light text-center">He then moved in 1907 to the <strong>University of Manchester</strong>, taking the <strong>chair of physics</strong>, where he performed his most famous work, and his greatest contribution to physics and chemistry... (Britannica, 2021)
             </p>
           </Col>
           <Col xs="2" />
@@ -85,7 +85,7 @@ function App() {
         <div className="row rutherford-model row-with-alt" alt="D. (2013, May 18). File:3D anamation of the Rutherford atom.ogv. Retrieved January 21, 2021, from https://en.wikipedia.org/wiki/File:3D_anamation_of_the_Rutherford_atom.ogv">
           <video autoPlay loop src={atomvid} className="video-bg"></video>
           <Col>
-            <h2 data-aos="fade-up" className="text-center">The discovery of the atomic nucleus and the formulation of the Rutherford model of the atom in 1911.
+            <h2 data-aos="fade-up" className="text-center">The discovery of the atomic nucleus and the formulation of the Rutherford model of the atom in 1911. (Nobel Lectures, 1966)
             </h2>
           </Col>
         </div>
@@ -101,13 +101,13 @@ function App() {
           </Col>
           <Col xs="5" className="center-vertically">
             <p data-aos="fade-right">
-              <strong>Rutherford</strong>, along with <strong>Ernest Marsden</strong> and <strong>Hans Geiger</strong>, carried out the “Geiger-Marsden experiment”,  or what we call the “<strong>gold foil experiment</strong>”, in 1909.
+              <strong>Rutherford</strong>, along with <strong>Ernest Marsden</strong> and <strong>Hans Geiger</strong>, carried out the “Geiger-Marsden experiment”,  or what we call the “<strong>gold foil experiment</strong>”, in 1909. (McGill, n.d.)
             </p>
             <p data-aos="fade-right">
-              Prior to this experiment, J.J. Thomson's "plum pudding model," in which the atom is modeled as a positively charged sphere littered with electrons, was the most popular theory of the structure of the atom. According to this model, there is no "solid matter" at the atomic scale. If an alpha particle collides with an atom, it will pass through the atom.
+              Prior to this experiment, J.J. Thomson's "plum pudding model," in which the atom is modeled as a positively charged sphere littered with electrons, was the most popular theory of the structure of the atom. According to this model, there is no "solid matter" at the atomic scale. If an alpha particle collides with an atom, it will pass through the atom. (Nobel Lectures, 1966)
               </p>
             <p data-aos="fade-right">
-              Rutherford was surprised to find that during the experiment, <strong>some alpha particles bounced off the gold foil</strong> instead. After further experiments and calculations, Rutherford concluded that Thomson’s model was indeed wrong. Instead of a large volume of positive charge, it was concentrated in the center of the atom, or what he called the "nucleus", with most of the rest being empty space, except for electrons.
+              Rutherford was surprised to find that during the experiment, <strong>some alpha particles bounced off the gold foil</strong> instead. After further experiments and calculations, Rutherford concluded that Thomson’s model was indeed wrong. Instead of a large volume of positive charge, it was concentrated in the center of the atom, or what he called the "nucleus", with most of the rest being empty space, except for electrons. (Nobel Lectures, 1966)
             </p>
             <p data-aos="fade-right">These discoveries lead to the creation of the Rutherford model of the atom. </p>
           </Col>
@@ -120,7 +120,7 @@ function App() {
               Although we have moved on from the Rutherford model, it plays a key role in our understanding of the world at the atomic scale.
             </p>
             <p data-aos="fade-left">
-              Only 2 years after the creation of the Rutherford model, Rutherford himself, together with Niels Bohr, created the more accurate <strong>Bohr-Rutherford model</strong>. It puts electrons into different energy levels and shells and is able to explain more things such as the photoelectric effect and emission lines.
+              Only 2 years after the creation of the Rutherford model, Rutherford himself, together with Niels Bohr, created the more accurate <strong>Bohr-Rutherford model</strong>. It puts electrons into different energy levels and shells and is able to explain more things such as the photoelectric effect and emission lines. (Nobel Lectures, 1966)
             </p>
             <p data-aos="fade-left">
               Despite the existence of more accurate quantum physical models of the atom, the Bohr-Rutherford model of the atom is still taught to students as an introduction to the world of chemistry because of its simplicity.
@@ -131,7 +131,7 @@ function App() {
             <p data-aos="fade-left">
               During <strong>Unit 2 – Atomic Structure and Bonding</strong> in this year’s Grade 12 University level Chemistry, we used the Bohr-Rutherford model of the atom to explain emission lines and learned about energy level diagrams. The distinct shells served as a good visualization for energy levels and explanation for emission spectrums, although energy levels were mostly the work Niels Bohr, not Rutherford.
             </p>
-            <p data-aos="fade-in">
+            <p data-aos="fade-left">
               Later we were introduced to the quantum model of the atom, but the Bohr-Rutherford model served as a good introduction.
             </p>
           </Col>
@@ -158,9 +158,9 @@ function App() {
           <Row className="mb-5">
             <Jumbotron className="shadow" data-aos="zoom-in">
               <h1>Legacy</h1>
-              <p>Rutherford's discoveries and contributions go beyond his atomic model. He also discovered the concept of radioactive half-life, the element radon, and distinguished and named alpha, beta, and gamma particles and classified them according to their ability to penetrate matter.</p>
+              <p>Rutherford's discoveries and contributions go beyond his atomic model. He also discovered the concept of radioactive half-life, the element radon, and distinguished and named alpha, beta, and gamma particles and classified them according to their ability to penetrate matter. (Nobel Lectures, 1966)</p>
               <p>
-                His work may not be immediately useful, but his understanding of atoms and radiation pioneered nuclear physics and paved the way for others to go further in these fields.
+                His understanding of atoms and radiation pioneered nuclear physics and paved the way for others to go further in these fields.
               </p>
             </Jumbotron>
           </Row>
@@ -240,7 +240,6 @@ function App() {
       <footer className="site-footer">
         <p>Made by <a href="https://www.ynng.ca">Kevin Huang</a> for a Grade 12 Chemistry class.
         </p>
-        <p>© 2021 Kevin Huang</p>
       </footer>
     </>
   );
