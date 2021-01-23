@@ -29,12 +29,11 @@ function App() {
   const [atTop, setAtTop] = useState(true);
 
   useEffect(() => {
-
     var lastPos = 0;
     window.onscroll = function () {
       if (window.pageYOffset !== 0 && lastPos === 0) {
         setAtTop(false);
-      }else if(window.pageYOffset === 0 && lastPos !== 0){
+      } else if (window.pageYOffset === 0 && lastPos !== 0) {
         setAtTop(true);
       }
       lastPos = window.pageYOffset;
@@ -93,7 +92,7 @@ function App() {
           <Col xs="2" />
           <Col xs="4">
             <p data-aos="fade-right">
-              Ernest Rutherford was born on August 30, 1871 in{" "}
+              Ernest Rutherford was born on August 30, 1871, in{" "}
               <strong>Brightwater</strong>, New Zealand.
             </p>
             <p data-aos="fade-right">
@@ -117,7 +116,7 @@ function App() {
           <Col xs="2" />
           <Col>
             <p data-aos="fade-up" className="text-light text-center">
-              He was awarded an research fellowship in 1851 for postgraduate
+              He was awarded a research fellowship in 1851 for postgraduate
               study at the Cavendish Laboratory,{" "}
               <strong>Cambridge University</strong>, England, under J.J.
               Thomson. (Britannica, 2021)
@@ -190,7 +189,7 @@ function App() {
             </p>
             <p data-aos="fade-right">
               Prior to this experiment, J.J. Thomson's "plum pudding model," in
-              which the atom is modeled as a positively charged sphere littered
+              which the atom is modelled as a positively charged sphere littered
               with electrons, was the most popular theory of the structure of
               the atom. According to this model, there is no "solid matter" at
               the atomic scale. If an alpha particle collides with an atom, it
@@ -248,8 +247,8 @@ function App() {
               Bohr-Rutherford model of the atom to explain emission lines and
               learned about energy level diagrams. The distinct shells served as
               a good visualization for energy levels and explanation for
-              emission spectrums, although energy levels were mostly the work
-              Niels Bohr, not Rutherford.
+              emission spectrums, although energy levels were mostly the works
+              of Niels Bohr, not Rutherford.
             </p>
             <p data-aos="fade-left">
               Later we were introduced to the quantum model of the atom, but the
